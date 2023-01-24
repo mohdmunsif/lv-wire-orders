@@ -5,7 +5,7 @@
 </div>
 
 @push('js')
-    <script>
+    {{-- <script>
         const chart = new Chartisan({
             el: '#chart',
             url: "@chart('total_revenue_chart')",
@@ -38,5 +38,5 @@
         window.livewire.on('chartUpdate', () => {
             chart.update({ url: "@chart('total_revenue_chart')", background: true })
         });
-    </script>
+    </script> --}}
 @endpush
